@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment (recreate with `uv sync`)
+.venv/
+
+# Tests
+.pytest_cache/
+
+# PyInstaller output (rebuild with `python -m PyInstaller lumen.spec`)
+build/
+dist/
+
+# Portable data folder used when LUMEN_HOME points here (models, cache, settings)
+.lumen-home/
+
+# Local test audiobooks
+*.mp3
+*.m4a
+*.m4b
+*.wav
+
+# Secrets
+.env
+
+# Editors and OS
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store

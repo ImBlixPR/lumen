@@ -1,0 +1,53 @@
+LUMEN - audiobooks with translated subtitles
+============================================
+
+Lumen plays an audiobook in the language you're learning and shows a translated
+subtitle, in your own language, floating above every window. Everything runs on
+your own computer.
+
+What you need
+-------------
+- Windows 10 or 11 (64-bit)
+- About 3 GB of free disk space for the speech and translation models
+- An internet connection the first time only, to download those models
+- Optional: an NVIDIA graphics card makes it much faster. Without one it still
+  works, using the processor.
+
+How to start it
+---------------
+1. Unzip the whole folder somewhere, for example into Documents.
+   Keep all the files together; Lumen.exe needs the "_internal" folder next to it.
+2. Double-click Lumen.exe.
+3. Windows may show "Windows protected your PC", because the app isn't signed
+   by a company. Click "More info", then "Run anyway".
+4. The first time, Lumen asks for the language of your audiobooks and the
+   language you want subtitles in, then downloads the models (one time only).
+
+How to use it
+-------------
+- Click "Add books" (or drop audio files onto the window). MP3, M4A, M4B and WAV
+  all work.
+- Click a book to play it. The window moves aside and the book floats at the
+  right edge of the screen; move the mouse over it for the controls.
+- Subtitles appear near the bottom of the screen while the audio plays.
+- Shortcuts that work in any app:
+    Ctrl+Alt+P      play / pause
+    Ctrl+Alt+Left   back one sentence
+    Ctrl+Alt+H      show / hide subtitles
+    Ctrl+Alt+L      unlock the subtitles so you can drag them
+- To quit: close the window, click "Quit Lumen" in the sidebar, or press Ctrl+Q.
+  You can also right-click the tray icon (by the clock) and choose "Quit Lumen".
+  To keep Lumen playing after you close the window, turn on Settings > Playback >
+  "Keep running when the window is closed".
+
+Good to know
+------------
+- For the best accuracy with an NVIDIA card, choose "Large v3 Turbo" for speech
+  and "NLLB-200 1.3B" for translation (Settings > Models).
+- Add the book's character names under the book title in Now Playing, written as
+  they're spoken in the book (e.g. "Ernest, Célestine"), so names are spelled right.
+- Your settings and library are stored in your user folder
+  (%APPDATA%\Lumen and %LOCALAPPDATA%\Lumen), not in this folder.
+
+License note: the translation model (Meta NLLB-200) may only be used for
+non-commercial purposes. Lumen is for personal learning, not for sale.
